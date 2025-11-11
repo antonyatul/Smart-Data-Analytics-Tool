@@ -12,4 +12,8 @@ class Cleaner(BaseProcessor):
         self.logger.log("Filled missimg values")
         return self.df
     
-    
+    def filter_invalid_rows(self):
+        valid_rows = filter(lambda row: row["sales"] >= 0 and row["revenue"] >= 0, self.df.to_dic("records"))
+        self.df = pd.DataFrame(list(valid_rows))
+        self.logger.log("Filter invalid rows (sales<0 or revenue <0)")
+        return self.df    

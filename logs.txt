@@ -1,3 +1,11 @@
 [13-11-25 10:47:16] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\Data\sales_data.csv
 [13-11-25 10:47:16] Cleaned column names
 [13-11-25 10:47:16] Filled missimg values
+[13-11-25 10:53:15] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\Data\sales_data.csv
+[13-11-25 10:53:15] Cleaned column names
+[13-11-25 10:53:15] Filled missing values
+[13-11-25 10:53:15] Filtered invalid rows (sales < 0 or revenue < 0)
+[13-11-25 10:53:37] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\Data\sales_data.csv
+[13-11-25 10:53:37] Cleaned column names
+[13-11-25 10:53:37] Filled missing values
+[13-11-25 10:53:37] Filtered invalid rows (sales < 0 or revenue < 0)

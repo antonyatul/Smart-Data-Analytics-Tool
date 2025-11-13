@@ -7,7 +7,7 @@ def main():
     cleaned_output = "data/cleaned_sales.csv"
     analysis_output = "data/top_performers.csv"
 
-    #Data Cleaning
+    # Data Cleaning
     cleaner = Cleaner(input_file)
     cleaner.load_data()
     cleaner.clean_columns()
@@ -15,15 +15,18 @@ def main():
     cleaner.filter_invalid_rows()
     cleaner.save_to_csv(cleaned_output)
 
-    #Data analysis
+    # Data analysis
     analyzer = SalesAnalyzer(cleaned_output)
-    analyzer.load_data
+    analyzer.load_data()       # ← FIXED
     analyzer.calculate_profit()
     analyzer.categorize_sales()
     top_df = analyzer.filter_top_performers()
+
+    # SAVE TOP PERFORMERS (missing in your code)
+    top_df.to_csv(analysis_output, index=False)
     analyzer.logger.log(f'Saved Top performers to {analysis_output}')
 
-    #Visualization
+    # Visualization
     viz = Visualizer()
     viz.plot_sales_vs_profit(analyzer.df)
 

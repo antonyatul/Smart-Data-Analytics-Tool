@@ -31,6 +31,15 @@ def main():
     analyzer.calculate_profit()
     analyzer.categorize_sales()
     analyzer.export_threshold_summary("data/threshold_summary.csv")
+    # PROFIT THRESHOLD GRAPH
+    viz = Visualizer()
+    viz.plot_profit_thresholds(
+        analyzer.df,
+        analyzer.q25,
+        analyzer.q75,
+        analyzer.mean_profit
+    )
+
     top_df = analyzer.filter_top_performers()
 
     # Save Top Performers CSV

@@ -85,3 +85,14 @@
 [13-11-25 14:05:37] Filtered top performers (High only)
 [13-11-25 14:05:38] Saved Top performers to data/top_performers.csv
 [13-11-25 14:05:38] Generated Sales vs Profit graph (saved to data/sales_vs_profit.png)
+[13-11-25 14:09:21] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv
+[13-11-25 14:09:21] Cleaned column names
+[13-11-25 14:09:22] Filled missing values
+[13-11-25 14:09:22] Filtered invalid rows (sales < 0 or revenue < 0)
+[13-11-25 14:09:23] Saved CSV to data/cleaned_sales.csv
+[13-11-25 14:09:23] Loaded data from data/cleaned_sales.csv
+[13-11-25 14:09:23] Calculated Profit column
+[13-11-25 14:09:23] 3-level categorization -> Low<39.91, Medium<499.83, High>=499.83
+[13-11-25 14:09:23] Threshold summary exported to data/threshold_summary.csv
+[13-11-25 14:09:23] Filtered top performers (High only)
+[13-11-25 14:09:23] Saved Top performers to data/top_performers.csv

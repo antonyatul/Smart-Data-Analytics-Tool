@@ -10,7 +10,7 @@ def main():
         os.makedirs("data")
 
     # ✔️ Input CSV inside /data folder
-    input_file = r"C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\data\sales_data.csv"
+    input_file = r"C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv"
 
     # ✔️ Output file locations (all inside /data)
     cleaned_output = "data/cleaned_sales.csv"
@@ -30,6 +30,7 @@ def main():
     analyzer.load_data()
     analyzer.calculate_profit()
     analyzer.categorize_sales()
+    analyzer.export_threshold_summary("data/threshold_summary.csv")
     top_df = analyzer.filter_top_performers()
 
     # Save Top Performers CSV

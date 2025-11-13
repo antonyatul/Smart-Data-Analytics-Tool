@@ -20,3 +20,68 @@
 [13-11-25 13:18:02] Filtered 4 top-performing records
 [13-11-25 13:18:02] Saved Top performers to data/top_performers.csv
 [13-11-25 13:18:03] Generated Sales vs Profit graph (saved to data/sales_vs_profit.png)
+[13-11-25 13:25:07] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv
+[13-11-25 13:25:07] Cleaned column names
+[13-11-25 13:25:07] Filled missing values
+[13-11-25 13:25:08] Filtered invalid rows (sales < 0 or revenue < 0)
+[13-11-25 13:25:08] Saved CSV to data/cleaned_sales.csv
+[13-11-25 13:25:09] Loaded data from data/cleaned_sales.csv
+[13-11-25 13:25:09] Calculated profit for all rows
+[13-11-25 13:25:09] Categorized sales into High/Low
+[13-11-25 13:25:10] Filtered 20226 top-performing records
+[13-11-25 13:25:10] Saved Top performers to data/top_performers.csv
+[13-11-25 13:25:10] Generated Sales vs Profit graph (saved to data/sales_vs_profit.png)
+[13-11-25 13:49:46] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv
+[13-11-25 13:49:46] Cleaned column names
+[13-11-25 13:49:46] Filled missing values
+[13-11-25 13:49:47] Filtered invalid rows (sales < 0 or revenue < 0)
+[13-11-25 13:49:47] Saved CSV to data/cleaned_sales.csv
+[13-11-25 13:49:47] Loaded data from data/cleaned_sales.csv
+[13-11-25 13:49:47] Calculated Profit column
+[13-11-25 13:49:47] 3-level performance categorized using adaptive quantiles (Low < 39.91, Medium < 499.83, High >= 499.83)
+[13-11-25 13:49:47] Filtered top performers (High only)
+[13-11-25 13:49:47] Saved Top performers to data/top_performers.csv
+[13-11-25 13:49:48] Generated Sales vs Profit graph (saved to data/sales_vs_profit.png)
+[13-11-25 13:55:12] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv
+[13-11-25 13:55:12] Cleaned column names
+[13-11-25 13:55:12] Filled missing values
+[13-11-25 13:55:13] Filtered invalid rows (sales < 0 or revenue < 0)
+[13-11-25 13:55:13] Saved CSV to data/cleaned_sales.csv
+[13-11-25 13:55:13] Loaded data from data/cleaned_sales.csv
+[13-11-25 13:55:13] Calculated Profit column
+[13-11-25 13:55:13] 3-level performance categorized using adaptive quantiles (Low < 39.91, Medium < 499.83, High >= 499.83)
+[13-11-25 13:55:13] Filtered top performers (High only)
+[13-11-25 13:55:13] Saved Top performers to data/top_performers.csv
+[13-11-25 13:55:14] Generated Sales vs Profit graph (saved to data/sales_vs_profit.png)
+[13-11-25 13:57:27] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv
+[13-11-25 13:57:27] Cleaned column names
+[13-11-25 13:57:27] Filled missing values
+[13-11-25 13:57:27] Filtered invalid rows (sales < 0 or revenue < 0)
+[13-11-25 13:57:28] Saved CSV to data/cleaned_sales.csv
+[13-11-25 13:57:28] Loaded data from data/cleaned_sales.csv
+[13-11-25 13:59:06] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv
+[13-11-25 13:59:06] Cleaned column names
+[13-11-25 13:59:06] Filled missing values
+[13-11-25 13:59:06] Filtered invalid rows (sales < 0 or revenue < 0)
+[13-11-25 13:59:07] Saved CSV to data/cleaned_sales.csv
+[13-11-25 13:59:07] Loaded data from data/cleaned_sales.csv
+[13-11-25 13:59:07] Calculated Profit column
+[13-11-25 14:02:09] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv
+[13-11-25 14:02:09] Cleaned column names
+[13-11-25 14:02:10] Filled missing values
+[13-11-25 14:02:10] Filtered invalid rows (sales < 0 or revenue < 0)
+[13-11-25 14:02:11] Saved CSV to data/cleaned_sales.csv
+[13-11-25 14:02:11] Loaded data from data/cleaned_sales.csv
+[13-11-25 14:02:11] Calculated Profit column
+[13-11-25 14:05:36] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv
+[13-11-25 14:05:36] Cleaned column names
+[13-11-25 14:05:36] Filled missing values
+[13-11-25 14:05:37] Filtered invalid rows (sales < 0 or revenue < 0)
+[13-11-25 14:05:37] Saved CSV to data/cleaned_sales.csv
+[13-11-25 14:05:37] Loaded data from data/cleaned_sales.csv
+[13-11-25 14:05:37] Calculated Profit column
+[13-11-25 14:05:37] 3-level categorization -> Low<39.91, Medium<499.83, High>=499.83
+[13-11-25 14:05:37] Threshold summary exported to data/threshold_summary.csv
+[13-11-25 14:05:37] Filtered top performers (High only)
+[13-11-25 14:05:38] Saved Top performers to data/top_performers.csv
+[13-11-25 14:05:38] Generated Sales vs Profit graph (saved to data/sales_vs_profit.png)

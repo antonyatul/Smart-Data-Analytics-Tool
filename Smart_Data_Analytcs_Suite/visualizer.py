@@ -7,7 +7,7 @@ class Visualizer:
 
     def plot_sales_vs_profit(self, df):
         plt.figure(figsize=(8, 5))
-        plt.scatter(df["sales"], df["profit"], color="teal", alpha=0.6)
+        plt.scatter(df["sales"], df["Profit"])
         plt.title("Sales vs Profit", fontsize=14)
         plt.xlabel("Sales")
         plt.ylabel("Profit")

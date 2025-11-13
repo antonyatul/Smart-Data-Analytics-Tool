@@ -1,0 +1,3 @@
+[13-11-25 10:47:16] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\Data\sales_data.csv
+[13-11-25 10:47:16] Cleaned column names
+[13-11-25 10:47:16] Filled missimg values

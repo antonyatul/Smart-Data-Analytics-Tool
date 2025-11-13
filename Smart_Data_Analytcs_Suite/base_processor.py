@@ -8,9 +8,16 @@ class BaseProcessor:
         self.logger = Logger("logs.txt")
 
     def load_data(self):
-        self.df = pd.read_excel(self.file_path)
-        self.logger.log(f'Loaded data from {self.file_path}')
+        if self.file_path.endswith(".csv"):
+            self.df = pd.read_csv(self.file_path)
+        elif self.file_path.endswith(".xlsx") or self.file_path.endswith(".xls"):
+            self.df = pd.read_excel(self.file_path)
+        else:
+            raise ValueError("Unsupported file format. Please use CSV or Excel.")
+        
+        self.logger.log(f"Loaded data from {self.file_path}")
         return self.df
+
     
     def save_to_csv(self, output_path):
         self.df.to_csv(output_path, index=False)

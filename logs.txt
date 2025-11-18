@@ -107,3 +107,36 @@
 [13-11-25 22:06:46] Threshold summary exported to data/threshold_summary.csv
 [13-11-25 22:06:47] Filtered top performers (High only)
 [13-11-25 22:06:48] Saved Top performers to data/top_performers.csv
+[18-11-25 11:18:00] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv
+[18-11-25 11:18:00] Cleaned column names
+[18-11-25 11:18:01] Filled missing values
+[18-11-25 11:18:01] Filtered invalid rows (sales < 0 or revenue < 0)
+[18-11-25 11:18:02] Saved CSV to data/cleaned_sales.csv
+[18-11-25 11:18:02] Loaded data from data/cleaned_sales.csv
+[18-11-25 11:18:02] Calculated Profit column
+[18-11-25 11:18:02] 3-level categorization -> Low<39.91, Medium<499.83, High>=499.83
+[18-11-25 11:18:02] Threshold summary exported to data/threshold_summary.csv
+[18-11-25 11:18:04] Filtered top performers (High only)
+[18-11-25 11:18:04] Saved Top performers to data/top_performers.csv
+[18-11-25 11:18:21] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv
+[18-11-25 11:18:21] Cleaned column names
+[18-11-25 11:18:21] Filled missing values
+[18-11-25 11:18:22] Filtered invalid rows (sales < 0 or revenue < 0)
+[18-11-25 11:18:23] Saved CSV to data/cleaned_sales.csv
+[18-11-25 11:18:23] Loaded data from data/cleaned_sales.csv
+[18-11-25 11:18:23] Calculated Profit column
+[18-11-25 11:18:23] 3-level categorization -> Low<39.91, Medium<499.83, High>=499.83
+[18-11-25 11:18:23] Threshold summary exported to data/threshold_summary.csv
+[18-11-25 11:18:23] Filtered top performers (High only)
+[18-11-25 11:18:23] Saved Top performers to data/top_performers.csv
+[18-11-25 11:38:23] Loaded data from C:\Users\alvia\Documents\Luminar\Smart Data Analytics Tool\Smart_Data_Analytcs_Suite\raw_data\big_sales_data.csv
+[18-11-25 11:38:23] Cleaned column names
+[18-11-25 11:38:24] Filled missing values
+[18-11-25 11:38:24] Filtered invalid rows (sales < 0 or revenue < 0)
+[18-11-25 11:38:25] Saved CSV to data/cleaned_sales.csv
+[18-11-25 11:38:25] Loaded data from data/cleaned_sales.csv
+[18-11-25 11:38:25] Calculated Profit column
+[18-11-25 11:38:25] 3-level categorization -> Low<39.91, Medium<499.83, High>=499.83
+[18-11-25 11:38:25] Threshold summary exported to data/threshold_summary.csv
+[18-11-25 11:38:25] Filtered top performers (High only)
+[18-11-25 11:38:26] Saved Top performers to data/top_performers.csv
